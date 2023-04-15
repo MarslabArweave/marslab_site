@@ -1,0 +1,40 @@
+#content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 55rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: 'Chakra Petch', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(30, 0, 0);
+
+}
+
+header {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-bottom: solid 1px rgb(39, 50, 62);
+  color: rgb(255, 255, 255);
+}
+
+main {
+  border-left: solid 1px;
+  border-right: solid 1px;
+  border-color: rgb(39, 50, 62);
+  min-height: 100vh;
+}
+
+.rs-input-number-btn-group-vertical {
+  display: none;
+}
